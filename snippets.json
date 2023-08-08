@@ -1,0 +1,106 @@
+{
+  "Print to console": {
+    "scope": "html,javascript,typescript",
+    "prefix": "hdr",
+    "body": ["console.log('$1');", "$2"],
+    "description": "Website header snippet"
+  },
+
+  "Media queries - min": {
+    "scope": "css,scss,sass",
+    "prefix": "@min",
+    "body": ["@media (min-width:$1){$2}"],
+    "description": "Media querie min-width"
+  },
+
+  "Media queries - max": {
+    "scope": "css,scss,sass",
+    "prefix": "@max",
+    "body": ["@media (max-width:$1){$2}"],
+    "description": "Media querie max-width"
+  },
+
+  "Transition - all": {
+    "scope": "css,scss,sass",
+    "prefix": "@tran",
+    "body": ["transition: all 0.3s ease-out;"],
+    "description": "Transition properties"
+  },
+
+  "Margin-top": {
+    "scope": "css,scss,sass",
+    "prefix": "@mmt",
+    "body": ["margin: $1 0px 0px 0px"],
+    "description": "Margin-top + zeroing"
+  },
+
+  "Margin-right": {
+    "scope": "css,scss,sass",
+    "prefix": "@mmr",
+    "body": ["margin: 0px $1 0px 0px"],
+    "description": "Margin-right + zeroing"
+  },
+
+  "Margin-bottom": {
+    "scope": "css,scss,sass",
+    "prefix": "@mmb",
+    "body": ["margin: 0px 0px %1 0px"],
+    "description": "Margin-bottom + zeroing"
+  },
+
+  "Margin-left": {
+    "scope": "css,scss,sass",
+    "prefix": "@mml",
+    "body": ["margin: 0px 0px 0px $1"],
+    "description": "Margin-left + zeroing"
+  },
+
+  "Margin": {
+    "scope": "css,scss,sass",
+    "prefix": "@mar",
+    "body": ["margin: $1 $2 $3 $4"],
+    "description": "Margin"
+  },
+
+  "Padding-top": {
+    "scope": "css,scss,sass",
+    "prefix": "@pdt",
+    "body": ["padding: $1 0px 0px 0px"],
+    "description": "Padding-top + zeroing"
+  },
+
+  "Padding-right": {
+    "scope": "css,scss,sass",
+    "prefix": "@pdr",
+    "body": ["padding: 0px $1 0px 0px"],
+    "description": "Padding-right + zeroing"
+  },
+
+  "Padding-bottom": {
+    "scope": "css,scss,sass",
+    "prefix": "@pdb",
+    "body": ["padding: 0px 0px %1 0px"],
+    "description": "Padding-bottom + zeroing"
+  },
+
+  "Padding-left": {
+    "scope": "css,scss,sass",
+    "prefix": "@pdl",
+    "body": ["padding: 0px 0px 0px $1"],
+    "description": "Padding-left + zeroing"
+  },
+
+  "Padding": {
+    "scope": "css,scss,sass",
+    "prefix": "@pad",
+    "body": ["padding: $1 $2 $3 $4"],
+    "description": "Padding"
+  },
+
+  "Adaptive value": {
+    "scope": "css,scss,sass",
+    "prefix": "@adv",
+    "body": ["@include adaptive-value('$1', $2, $3, $4)"],
+    "description": "Adaptive value"
+  }
+}
